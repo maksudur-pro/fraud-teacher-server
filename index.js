@@ -123,6 +123,7 @@ app.get("/", (req, res) => {
   res.send("Fraud Teacher is live");
 });
 
-app.listen(port, () => {
-  console.log(`Fraud Teacher is sitting on port ${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Fraud Teacher is sitting on port ${port}`);
+// });
+module.exports = app;
